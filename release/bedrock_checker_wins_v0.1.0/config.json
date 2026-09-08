@@ -1,0 +1,25 @@
+{
+  "_comment": "Credentials: paste literal keys into credentials.access_key_id / secret_access_key, or leave empty to read the system env vars named in the *_env fields. config.json may contain secrets - do not share it.",
+  "hours": 24,
+  "days": 8,
+  "regions": ["us-east-1", "ap-southeast-1"],
+  "auto_discover_regions": false,
+  "classes": ["sonnet", "opus", "fable", "haiku", "mythos"],
+  "cache_write_ttl": "5m",
+  "regional_premium_pct": 10,
+  "calibration_lookback_days": 10,
+  "calibration_skip_recent_days": 2,
+  "cloudwatch_period_s": 3600,
+  "request_timeout_s": 20,
+  "max_worker_threads": 6,
+  "credentials_env_prefix": "EVAL_AWS",
+  "credentials": {
+    "access_key_id": "",
+    "secret_access_key": "",
+    "session_token": "",
+    "access_key_id_env": "EVAL_AWS_ACCESS_KEY_ID",
+    "secret_access_key_env": "EVAL_AWS_SECRET_ACCESS_KEY",
+    "session_token_env": "EVAL_AWS_SESSION_TOKEN"
+  },
+  "pricing_overrides": {}
+}

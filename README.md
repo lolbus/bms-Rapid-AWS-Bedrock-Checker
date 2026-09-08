@@ -13,6 +13,9 @@ last hour to the last month. Portable Windows app: no Python, no installer, no
 admin rights. Read-only: it only reads CloudWatch metrics and Cost Explorer
 data; it cannot change anything in your AWS account.
 
+![Sample deployment Snipe](personal_brand_materials/sampleusage.png)
+
+
 ## 1. Download & unzip
 
 Get the latest zip from the release folder:

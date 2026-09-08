@@ -1,9 +1,4 @@
 .venv/
 dist/
-build/
-release/
 __pycache__/
 *.pyc
-logs/
-exports/
-config.json
