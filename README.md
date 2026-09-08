@@ -7,7 +7,7 @@
 
 Are you facing challenges managing, tracking, and responding to billing matters related to AWS Bedrock as an AWS Administrator?
 
-**Quickly download, deploy  and assess what your AWS Bedrock Claude usage is costing you** — per
+**Quickly download, deploy a Windows Tkinter app and assess what your AWS Bedrock Claude usage is costing you** — per
 model class (sonnet / opus / fable / haiku / mythos), over any window from the
 last hour to the last month. Portable Windows app: no Python, no installer, no
 admin rights. Read-only: it only reads CloudWatch metrics and Cost Explorer
