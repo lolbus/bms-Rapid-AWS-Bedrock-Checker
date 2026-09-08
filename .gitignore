@@ -1,4 +1,16 @@
 .venv/
 dist/
+build/
 __pycache__/
 *.pyc
+
+# Runtime data. config.json is where pasted AWS keys are saved — never commit it.
+logs/
+exports/
+config.json
+**/config.json
+
+# Ship the zip only. The unpacked tree contains a writable config.json that
+# keep_existing preserves across rebuilds; do not track it.
+release/*
+!release/*.zip
